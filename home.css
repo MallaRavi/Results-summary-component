@@ -1,0 +1,154 @@
+@import url("assets/fonts/static/HankenGrotesk-Bold.ttf");
+@import url("assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+@import url("assets/fonts/static/HankenGrotesk-Medium.ttf");
+@import url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-div {
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: normal;
+    background-color: white;
+    display: flex;
+    height: 60vh;
+    width: 45%; /* Adjust as needed */
+    margin: auto; /* Center the container horizontally */
+    border-radius: 20px;
+    box-shadow: 6px 6px 30px  hsl(241, 81%, 90%);
+}
+
+.left-div {
+    background-color: hsl(241, 81%, 54%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.left-content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    color: lightgray;
+}
+#great{
+    color: white;
+}
+.right-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%; /* Occupy full height of parent (.container-div) */
+    align-items: center; /* Center items horizontally */
+    margin: 0;
+}
+#right-divitem{
+    border: none;
+}
+
+.summary-content {
+    width: 100%; /* Occupy full width of .right-div */
+    padding: 20px; /* Adjust padding as needed */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-content ul {
+    list-style-type: none;
+    width: 100%; /* Occupy full width of .summary-content */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.summary-content ul li {
+    margin-bottom: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.summary-content ul li img {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+#right-divbutton button {
+    width: 50%;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 100px; /* Adjust border-radius as needed */
+    margin-top: 10px; /* Adjust spacing */
+    color: white;
+    height: 45px;
+    width: 100%;
+    margin: 0;
+    margin-top: 5px;
+}
+#right-divbutton button:hover{
+    color:deeppink;
+}
+#right-divbutton button:focus{
+    background-color: green;
+}
+
+.score {
+    border: 2px solid hsla(241, 72%, 46%, 0);
+    border-radius: 50%; /* Use 50% for circle */
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(135deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    font-size: 12px;
+}
+
+.result {
+    font-size: 42px;
+    color: white;
+}
+
+#reaction{
+    background-color: hsl(0, 100%, 97%);
+    border-radius: 5px;
+}
+#memory{
+    background-color:hsl(39, 100%, 97%) ;
+    border-radius: 5px;
+}
+#verbal{
+    background-color:hsl(166, 100%, 97%) ;
+    border-radius: 5px;
+}
+#visual{
+    background-color: hsl(234, 85%, 97%) ;
+    border-radius: 5px;
+}
