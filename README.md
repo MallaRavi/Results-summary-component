@@ -5,6 +5,7 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
+ I did this challenge using only CSS and HTML. if you want you can use JS to add interactive to buttons and etc.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
